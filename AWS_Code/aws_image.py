@@ -22,3 +22,5 @@ def describe_image(client, img_id):
     dic[img_id] = response['Images'][0]['State']
     
     return dic
+
+#test
